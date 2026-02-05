@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mya Hadnot - Reading Deep Dive Report</title>
+    <title>Reading Deep Dive: Mya Hadnot</title>
     <style>
         :root {
             --danger: #e53e3e;
@@ -116,9 +116,9 @@
         .app-performance h4 { font-size: 0.85rem; margin-bottom: 0.75rem; color: var(--text-light); }
         .app-row {
             display: grid;
-            grid-template-columns: 120px 1fr;
+            grid-template-columns: 100px 1fr;
             gap: 1rem;
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
             padding: 0.75rem;
             background: var(--bg);
             border-radius: 6px;
@@ -148,13 +148,13 @@
         .bar-fill.warn { background: var(--warning); }
         .bar-fill.bad { background: var(--danger); }
         .bar-value { font-size: 0.7rem; color: var(--text-light); text-align: right; }
-        .app-verdict { font-size: 0.8rem; margin-top: 0.5rem; padding: 0.5rem; background: white; border-radius: 4px; }
+        .app-verdict { font-size: 0.8rem; margin-bottom: 1rem; padding: 0.5rem; background: white; border-radius: 4px; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>Mya Hadnot</h1>
+            <h1>Reading Deep Dive: Mya Hadnot</h1>
             <p>Grade 2 | Nova Academy Austin | Winter MAP 2025-26</p>
         </div>
 
@@ -167,9 +167,9 @@
                 </div>
                 <div class="metric good">
                     <div class="metric-value">38 min</div>
-                    <div class="metric-label">Avg Time/Day</div>
+                    <div class="metric-label">Avg Active Time/Day</div>
                 </div>
-                <div class="metric warn">
+                <div class="metric bad">
                     <div class="metric-value">0.5</div>
                     <div class="metric-label">XP/Minute</div>
                 </div>
@@ -181,10 +181,9 @@
             <div class="root-cause">
                 <strong>Root Causes:</strong>
                 <ul>
-                    <li><strong>ClearFluency "Other" Time Dominance:</strong> 71% of ClearFluency time classified as "Other" (idle/off-task). Only 29% spent on active learning steps (Preview, Read & Record, Quiz). High total minutes but low productive engagement.</li>
-                    <li><strong>Slow Fall-to-Winter Growth:</strong> Fall RIT 195 to Winter RIT 196 = only +1 point (0.25x projected). Strong summer growth (+22) masked deceleration during school year instruction.</li>
-                    <li><strong>ORF Benchmark Not Passed:</strong> Level M (G2) at 59 WCPM on Dec 15, 2025 (needs 104 WCPM). Student still working at G1 fluency level despite ClearFluency G2 placement starting Dec 27.</li>
-                    <li><strong>Low XP/Min Ratio:</strong> 0.5 XP/Min across apps indicates content may be challenging. ClearFluency shows 575 XP across 1966 active minutes = 0.29 XP/Min, significantly below 1:1 target.</li>
+                    <li><strong>Premature G2 Placement:</strong> Student placed in ClearFluency G2 (Dec 27) before passing Level M ORF benchmark. Dec 15 assessment: 59 WCPM (needs 104). Effective Grade = 1, but rostered to G2 content.</li>
+                    <li><strong>Fall-to-Winter Deceleration:</strong> Only +1 RIT point Fall → Winter (0.25x projected) despite +22 RIT over summer. School-year instruction not producing expected gains.</li>
+                    <li><strong>Low XP/Min Ratio:</strong> 0.5 XP/Min indicates content difficulty mismatch. ClearFluency shows 0.29 XP/Min - significantly below 1:1 optimal placement indicator.</li>
                 </ul>
             </div>
         </div>
@@ -193,20 +192,20 @@
             <div class="section-title">Remediation Plan</div>
             <ol class="fix-list">
                 <li>
-                    <div class="fix-title">1. ClearFluency Engagement Intervention</div>
-                    <div class="fix-detail">Monitor "Other" time in ClearFluency sessions. Implement check-ins to ensure student progresses through Step 1 (Preview), Step 2 (Read & Record), and Step 3 (Quiz) without extended idle periods. Target: Reduce "Other" time to under 30%.</div>
+                    <div class="fix-title">1. Move ClearFluency to G1 Content</div>
+                    <div class="fix-detail">Student has not passed Level M ORF benchmark (59 WCPM vs 104 required). Return to G1 content until benchmark is achieved. Current G2 placement is premature given Effective Grade = 1.</div>
                 </li>
                 <li>
-                    <div class="fix-title">2. Maintain G2 Placement in ClearFluency</div>
-                    <div class="fix-detail">Student transitioned to ClearFluency G2 on Dec 27. Despite not passing Level M ORF benchmark, continue G2 placement to build fluency on grade-level text. Recent quiz scores (4/5, 5/5) indicate comprehension is adequate.</div>
+                    <div class="fix-title">2. Continue Lalilo G2 Placement</div>
+                    <div class="fix-detail">Lalilo shows strong metrics: 89% accuracy, 1.26 XP/Min. Lalilo placement is independent of ORF benchmarks. Student progressing well through G2 Language content.</div>
                 </li>
                 <li>
-                    <div class="fix-title">3. Continue Lalilo G2 Focus</div>
-                    <div class="fix-detail">Lalilo shows strong accuracy (89%+) and XP/Min ~1.1. Student progressing through G2 content with 85% mastery on test-outs. Continue current placement; Lalilo is effective for phonics and language skills.</div>
+                    <div class="fix-title">3. Monitor Lexia Core5</div>
+                    <div class="fix-detail">Lexia showing improved engagement on Jan 23 (100% accuracy, 25 XP). Continue monitoring; if XP/Min remains low, consider reallocation to ClearFluency G1.</div>
                 </li>
                 <li>
-                    <div class="fix-title">4. Phase Out Lexia Core5</div>
-                    <div class="fix-detail">Lexia Core5 shows low engagement (35 XP total, 70% accuracy) with minimal impact. Consider reallocating time to ClearFluency active reading or Lalilo comprehension activities.</div>
+                    <div class="fix-title">4. Schedule ORF Benchmark Retest</div>
+                    <div class="fix-detail">Last Level M assessment was Dec 15 (59 WCPM). Schedule retest in 4-6 weeks to track progress toward 104 WCPM benchmark for G2 ClearFluency readiness.</div>
                 </li>
             </ol>
         </div>
@@ -231,12 +230,12 @@
                         <tr>
                             <td>Fall 2025-26 (G2)</td>
                             <td>195</td>
-                            <td><span class="badge badge-success">+22</span></td>
+                            <td><span class="badge badge-success">+22 (summer)</span></td>
                         </tr>
                         <tr>
                             <td>Winter 2025-26 (G2)</td>
                             <td>196</td>
-                            <td><span class="badge badge-warning">+1</span></td>
+                            <td><span class="badge badge-danger">+1</span></td>
                         </tr>
                         <tr>
                             <td colspan="2"><strong>Winter-to-Winter</strong></td>
@@ -250,22 +249,22 @@
                         <tr>
                             <th>Domain</th>
                             <th>RIT</th>
-                            <th>Status</th>
+                            <th>F→W Change</th>
                         </tr>
                         <tr>
                             <td>Informational Text</td>
                             <td>194</td>
-                            <td><span class="badge badge-warning">Develop</span></td>
+                            <td><span class="badge badge-warning">-1</span></td>
                         </tr>
                         <tr>
                             <td>Literary Text</td>
                             <td>194</td>
-                            <td><span class="badge badge-warning">Develop</span></td>
+                            <td><span class="badge badge-warning">-1</span></td>
                         </tr>
                         <tr>
                             <td>Vocabulary</td>
                             <td>199</td>
-                            <td><span class="badge badge-success">Strongest</span></td>
+                            <td><span class="badge badge-success">+4</span></td>
                         </tr>
                     </table>
                 </div>
@@ -278,21 +277,18 @@
                         <th>Text Level</th>
                         <th>WCPM</th>
                         <th>Accuracy</th>
-                        <th>Date</th>
                         <th>Benchmark</th>
                     </tr>
                     <tr>
                         <td>Level M (G2)</td>
                         <td>59</td>
                         <td>96.6%</td>
-                        <td>Dec 15, 2025</td>
                         <td><span class="badge badge-danger">DID NOT PASS (need 104)</span></td>
                     </tr>
                     <tr>
                         <td>Level J (G1)</td>
                         <td>75</td>
                         <td>96.2%</td>
-                        <td>Nov 13, 2025</td>
                         <td><span class="badge badge-success">PASS (need 67)</span></td>
                     </tr>
                 </table>
@@ -315,7 +311,7 @@
                     </tr>
                     <tr>
                         <td>Literary Text Comprehension</td>
-                        <td>ClearFluency, Amplify</td>
+                        <td>ClearFluency</td>
                         <td>75% quiz avg</td>
                         <td><span class="badge badge-warning">PARTIAL</span></td>
                     </tr>
@@ -328,7 +324,7 @@
                     <tr>
                         <td>Fluency (WCPM)</td>
                         <td>ClearFluency</td>
-                        <td>59 WCPM (below G2)</td>
+                        <td>79 WCPM (below G2)</td>
                         <td><span class="badge badge-danger">GAP</span></td>
                     </tr>
                 </table>
@@ -346,14 +342,14 @@
                     <tr>
                         <td>Effective Grade</td>
                         <td>Grade 1</td>
-                        <td>Lalilo G2, ClearFluency G2</td>
-                        <td><span class="badge badge-warning">1 grade higher</span></td>
+                        <td>ClearFluency G2, Lalilo G2</td>
+                        <td><span class="badge badge-warning">1 grade above</span></td>
                     </tr>
                     <tr>
                         <td>ORF Prerequisite</td>
                         <td>Pass Level M (104 WCPM)</td>
                         <td>59 WCPM on Dec 15</td>
-                        <td><span class="badge badge-danger">Not ready for G3</span></td>
+                        <td><span class="badge badge-danger">Not ready for G2 CF</span></td>
                     </tr>
                 </table>
             </div>
@@ -362,35 +358,35 @@
                 <h4>App Performance Visualization</h4>
 
                 <div class="app-row">
-                    <div class="app-name">ClearFluency G1/G2</div>
+                    <div class="app-name">ClearFluency G1</div>
                     <div class="app-bars">
                         <div class="bar-row">
                             <span class="bar-label">Fluency</span>
                             <div class="bar-track">
-                                <div class="bar-fill warn" style="width: 74%"></div>
+                                <div class="bar-fill good" style="width: 100%"></div>
                             </div>
-                            <span class="bar-value">79/107</span>
+                            <span class="bar-value">95/69</span>
                         </div>
                         <div class="bar-row">
                             <span class="bar-label">XP/Day</span>
                             <div class="bar-track">
-                                <div class="bar-fill warn" style="width: 46%"></div>
+                                <div class="bar-fill warn" style="width: 40%"></div>
                             </div>
-                            <span class="bar-value">11.5</span>
+                            <span class="bar-value">10</span>
                         </div>
                         <div class="bar-row">
-                            <span class="bar-label">Time/Day</span>
+                            <span class="bar-label">Active Time/Day</span>
                             <div class="bar-track">
-                                <div class="bar-fill bad" style="width: 100%"></div>
+                                <div class="bar-fill good" style="width: 100%"></div>
                             </div>
-                            <span class="bar-value">39 min</span>
+                            <span class="bar-value">35 min</span>
                         </div>
                         <div class="bar-row">
                             <span class="bar-label">Accuracy</span>
                             <div class="bar-track">
-                                <div class="bar-fill warn" style="width: 73%"></div>
+                                <div class="bar-fill warn" style="width: 75%"></div>
                             </div>
-                            <span class="bar-value">73%</span>
+                            <span class="bar-value">75%</span>
                         </div>
                         <div class="bar-row">
                             <span class="bar-label">XP/Min</span>
@@ -401,7 +397,49 @@
                         </div>
                     </div>
                 </div>
-                <div class="app-verdict"><strong>Verdict: MIXED</strong> - High time investment (39 min/day) but 71% "Other" time indicates engagement issues. WCPM improving (69 to 79 avg) but below G2 benchmark. Quiz accuracy adequate (73%).</div>
+                <div class="app-verdict"><strong>Verdict: MIXED</strong> - G1 content appropriate for ORF level (passed Level J). Low XP/Min indicates engagement challenges. WCPM improved from 69 → 95 on G1 texts.</div>
+
+                <div class="app-row">
+                    <div class="app-name">ClearFluency G2</div>
+                    <div class="app-bars">
+                        <div class="bar-row">
+                            <span class="bar-label">Fluency</span>
+                            <div class="bar-track">
+                                <div class="bar-fill warn" style="width: 85%"></div>
+                            </div>
+                            <span class="bar-value">79/93</span>
+                        </div>
+                        <div class="bar-row">
+                            <span class="bar-label">XP/Day</span>
+                            <div class="bar-track">
+                                <div class="bar-fill warn" style="width: 48%"></div>
+                            </div>
+                            <span class="bar-value">12</span>
+                        </div>
+                        <div class="bar-row">
+                            <span class="bar-label">Active Time/Day</span>
+                            <div class="bar-track">
+                                <div class="bar-fill good" style="width: 100%"></div>
+                            </div>
+                            <span class="bar-value">42 min</span>
+                        </div>
+                        <div class="bar-row">
+                            <span class="bar-label">Accuracy</span>
+                            <div class="bar-track">
+                                <div class="bar-fill warn" style="width: 72%"></div>
+                            </div>
+                            <span class="bar-value">72%</span>
+                        </div>
+                        <div class="bar-row">
+                            <span class="bar-label">XP/Min</span>
+                            <div class="bar-track">
+                                <div class="bar-fill bad" style="width: 29%"></div>
+                            </div>
+                            <span class="bar-value">0.29</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-verdict"><strong>Verdict: MIXED</strong> - Premature placement (started Dec 27 before Level M benchmark). WCPM 79 below G2 target of 93. Quiz accuracy adequate but XP/Min indicates content too challenging.</div>
 
                 <div class="app-row">
                     <div class="app-name">Lalilo</div>
@@ -414,7 +452,7 @@
                             <span class="bar-value">42</span>
                         </div>
                         <div class="bar-row">
-                            <span class="bar-label">Time/Day</span>
+                            <span class="bar-label">Active Time/Day</span>
                             <div class="bar-track">
                                 <div class="bar-fill good" style="width: 100%"></div>
                             </div>
@@ -436,42 +474,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="app-verdict"><strong>Verdict: EFFECTIVE</strong> - Strong accuracy (89%), healthy XP/Min (1.26), consistent engagement. Progressed from Long O "oe" to Rise and Fall in Lalilo scope. Mastered G2 test-outs (85%, 80%, 85%).</div>
-
-                <div class="app-row">
-                    <div class="app-name">Amplify</div>
-                    <div class="app-bars">
-                        <div class="bar-row">
-                            <span class="bar-label">XP/Day</span>
-                            <div class="bar-track">
-                                <div class="bar-fill warn" style="width: 56%"></div>
-                            </div>
-                            <span class="bar-value">28</span>
-                        </div>
-                        <div class="bar-row">
-                            <span class="bar-label">Time/Day</span>
-                            <div class="bar-track">
-                                <div class="bar-fill good" style="width: 100%"></div>
-                            </div>
-                            <span class="bar-value">27 min</span>
-                        </div>
-                        <div class="bar-row">
-                            <span class="bar-label">Accuracy</span>
-                            <div class="bar-track">
-                                <div class="bar-fill good" style="width: 86%"></div>
-                            </div>
-                            <span class="bar-value">86%</span>
-                        </div>
-                        <div class="bar-row">
-                            <span class="bar-label">XP/Min</span>
-                            <div class="bar-track">
-                                <div class="bar-fill good" style="width: 100%"></div>
-                            </div>
-                            <span class="bar-value">1.03</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="app-verdict"><strong>Verdict: EFFECTIVE</strong> - Good accuracy (86%), optimal XP/Min (1.03). Phased out Nov 21, 2025. Contributed to comprehension skill development during Sep-Nov period.</div>
+                <div class="app-verdict"><strong>Verdict: EFFECTIVE</strong> - Strong accuracy (89%), healthy XP/Min (1.26), consistent engagement. G2 test-outs passed (85%, 80%, 85%). Lalilo placement independent of ORF.</div>
 
                 <div class="app-row">
                     <div class="app-name">Lexia Core5</div>
@@ -484,9 +487,9 @@
                             <span class="bar-value">3</span>
                         </div>
                         <div class="bar-row">
-                            <span class="bar-label">Time/Day</span>
+                            <span class="bar-label">Active Time/Day</span>
                             <div class="bar-track">
-                                <div class="bar-fill bad" style="width: 76%"></div>
+                                <div class="bar-fill good" style="width: 100%"></div>
                             </div>
                             <span class="bar-value">30 min</span>
                         </div>
@@ -506,7 +509,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="app-verdict"><strong>Verdict: INEFFECTIVE</strong> - Very low XP/Min (0.10) indicates content too challenging or low engagement. Only 35 XP total earned. 70% accuracy is borderline. Recommend phasing out or replacing with targeted intervention.</div>
+                <div class="app-verdict"><strong>Verdict: MIXED</strong> - Very low XP/Min (0.10) historically, but Jan 23 showed improvement (100% accuracy, 25 XP). Currently active; monitor for sustained improvement before changes.</div>
             </div>
         </div>
 
